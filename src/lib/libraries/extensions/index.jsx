@@ -46,6 +46,10 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+// mycode
+import newblocksImage from './newblocks.png';
+import newblocksInsetImage from './newblocks-small.png';
+
 export default [
     {
         name: (
@@ -317,5 +321,27 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+
+    //mycode
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="NewBlocks"
+                description="Name for the 'New Blocks' extension"
+                id="gui.exention.newblocks.name"
+            />
+        ),
+        extensionId: 'newblocks',
+        iconURL: newblocksImage,
+        insetIconURL: newblocksInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="new extension"
+                description="Description for the 'New Blocks' extension"
+                id="gui.extension.newblocks.description"
+            />
+        ),
+        featured: true
     }
 ];
