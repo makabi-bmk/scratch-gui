@@ -327,7 +327,7 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="NewBlocks"
+                defaultMessage="スマートフォン"
                 description="Name for the 'New Blocks' extension"
                 id="gui.exention.newblocks.name"
             />
@@ -337,7 +337,7 @@ export default [
         insetIconURL: newblocksInsetImage,
         description: (
             <FormattedMessage
-                defaultMessage="new extension"
+                defaultMessage="スマートフォンのセンサを利用してゲームを作ろう"
                 description="Description for the 'New Blocks' extension"
                 id="gui.extension.newblocks.description"
             />
